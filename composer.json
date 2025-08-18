@@ -1,0 +1,20 @@
+{
+  "name": "winnysan/invoice-generator",
+  "description": "Minimal CLI invoice generator",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Invoice\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/invoice.php"
+  ],
+  "scripts": {
+    "invoice": "php bin/invoice.php"
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
