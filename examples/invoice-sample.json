@@ -1,0 +1,53 @@
+{
+  "faktura_cislo": 2025001,
+  "dodavatel": {
+    "meno": "Firma Dodávateľ s.r.o.",
+    "adresa": ["Hlavná 123", "010 01 Žilina"],
+    "ico": 12345678,
+    "dic": 2022334455,
+    "ic_dph": "SK2022334455",
+    "poznamka": "Zapísaná v OR Okresného súdu Žilina, oddiel Sro, vložka č. 12345/L"
+  },
+  "odberatel": {
+    "meno": "Odberateľ a.s.",
+    "adresa": ["Námestie SNP 45", "811 01 Bratislava"],
+    "ico": 87654321,
+    "dic": 1022334455,
+    "ic_dph": "",
+    "poznamka": "Odberateľský vernostný program"
+  },
+  "platobne_udaje": {
+    "iban": "SK12 3456 7890 1234 5678 9012",
+    "swift": "TATRSKBX",
+    "forma_uhrady": "Bankový prevod",
+    "variabilny_symbol": "2025001"
+  },
+  "datumy": {
+    "datum_dodania": "2025-08-10",
+    "datum_vystavenia": "2025-08-11",
+    "datum_splatnosti": "2025-08-25"
+  },
+  "dodacia_adresa": ["Sklad č. 5", "Priemyselná 45", "821 09 Bratislava"],
+  "poznamka": "Ďakujeme za spoluprácu.",
+  "polozky": [
+    {
+      "popis": "Dodanie tovaru – Notebook Dell",
+      "pocet": 2,
+      "dph": 0.2,
+      "mena": "EUR",
+      "jednotkova_cena": 95000
+    },
+    {
+      "popis": "Servisný poplatok",
+      "pocet": 1,
+      "mena": "EUR",
+      "jednotkova_cena": 5000
+    }
+  ],
+  "celkom_k_uhrade": 2350.0,
+  "cena_s_dph": 2350.0,
+  "cena_bez_dph": 1958.33,
+  "vystavil": {
+    "meno": "Ing. Peter Fakturista"
+  }
+}

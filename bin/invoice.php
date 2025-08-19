@@ -7,7 +7,7 @@ require __DIR__ . '/../vendor/autoload.php';
 use Invoice\Application;
 
 /**
- * Spusti aplikaciu
+ * Spustí aplikáciu
  */
 $app = new Application();
 exit($app->run($_SERVER['argv'] ?? []));
